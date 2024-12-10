@@ -208,7 +208,7 @@ Run unit tests:
 mvn test
 ```
 # JAVA CHALLENGE
-
+```textmate
 This is a simple exercise, a simple order manager. You should develop an API where users can create and manage orders. Items can be ordered and orders are automatically fulfilled as soon as the item stock allows it.
 
 Specification
@@ -228,7 +228,7 @@ The system should be able to provide the following features:
 - show current completion of each order;
 
 - Write a log file with: orders completed, stock movements, email sent and errors.
-
+```
 
 Entities
 ```SQL
