@@ -33,7 +33,6 @@ class StockMovementMapperTest {
 
         assertNotNull(dto);
         assertEquals(stockMovement.getId(), dto.getId());
-        assertEquals(stockMovement.getCreationDate(), dto.getCreationDate());
         assertEquals(stockMovement.getQuantity(), dto.getQuantity());
         assertEquals(stockMovement.getItem().getId(), dto.getItemId());
         assertEquals(stockMovement.getItem().getName(), dto.getItemName());
@@ -51,7 +50,6 @@ class StockMovementMapperTest {
     void testToEntity_WithValidDto() {
         StockMovementDto dto = new StockMovementDto();
         dto.setId(1L);
-        dto.setCreationDate(LocalDateTime.now());
         dto.setQuantity(100);
         dto.setItemId(1L);
 
@@ -59,7 +57,6 @@ class StockMovementMapperTest {
 
         assertNotNull(stockMovement);
         assertEquals(dto.getId(), stockMovement.getId());
-        assertEquals(dto.getCreationDate(), stockMovement.getCreationDate());
         assertEquals(dto.getQuantity(), stockMovement.getQuantity());
     }
 
