@@ -1,0 +1,199 @@
+2024-12-09T22:06:39.630-03:00  INFO 18728 --- [main] c.c.o.OrderJavaChallangeApplicationTests : Starting OrderJavaChallangeApplicationTests using Java 17.0.12 with PID 18728 (started by Minas in C:\Users\Minas\Desktop\Workespace_Personal\order-java-challange)
+2024-12-09T22:06:39.631-03:00 DEBUG 18728 --- [main] c.c.o.OrderJavaChallangeApplicationTests : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-09T22:06:39.631-03:00  INFO 18728 --- [main] c.c.o.OrderJavaChallangeApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T22:06:40.192-03:00  INFO 18728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T22:06:40.252-03:00  INFO 18728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+2024-12-09T22:06:40.695-03:00  INFO 18728 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T22:06:40.762-03:00  INFO 18728 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-09T22:06:40.791-03:00  INFO 18728 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T22:06:40.891-03:00  INFO 18728 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T22:06:40.919-03:00  INFO 18728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-09T22:06:41.002-03:00  INFO 18728 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@84a9f65
+2024-12-09T22:06:41.004-03:00  INFO 18728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-09T22:06:41.028-03:00  WARN 18728 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.16.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-12-09T22:06:41.033-03:00  WARN 18728 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-09T22:06:41.051-03:00  INFO 18728 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.16
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-09T22:06:41.656-03:00  INFO 18728 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T22:06:41.731-03:00  INFO 18728 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T22:06:42.260-03:00  INFO 18728 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T22:06:43.076-03:00  WARN 18728 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T22:06:43.482-03:00  INFO 18728 --- [main] c.c.o.OrderJavaChallangeApplicationTests : Started OrderJavaChallangeApplicationTests in 4.1 seconds (process running for 6.419)
+2024-12-09T22:06:43.552-03:00  INFO 18728 --- [main] c.c.o.order.service.OrderService         : Updating order with ID: 1
+2024-12-09T22:06:43.560-03:00  INFO 18728 --- [main] c.c.o.order.service.OrderService         : Creating order for Item ID: SKU123
+2024-12-09T22:06:43.561-03:00  INFO 18728 --- [main] c.c.o.order.service.OrderService         : Creating new Item with name: Item A
+2024-12-09T22:06:43.562-03:00  INFO 18728 --- [main] c.c.o.order.service.OrderService         : Creating new user with name: John Doe and email: john.doe@example.com
+2024-12-09T22:06:43.564-03:00  INFO 18728 --- [main] c.c.o.order.service.OrderService         : Finding order by id: 1
+2024-12-09T22:06:43.567-03:00  INFO 18728 --- [main] c.c.o.order.service.OrderService         : Deleting order by id: 1
+2024-12-09T22:06:43.575-03:00  INFO 18728 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T22:06:43.579-03:00  INFO 18728 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-09T22:06:43.583-03:00  INFO 18728 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-09T22:15:34.895-03:00  INFO 20984 --- [main] c.c.o.OrderJavaChallangeApplicationTests : Starting OrderJavaChallangeApplicationTests using Java 17.0.12 with PID 20984 (started by Minas in C:\Users\Minas\Desktop\Workespace_Personal\order-java-challange)
+2024-12-09T22:15:34.896-03:00 DEBUG 20984 --- [main] c.c.o.OrderJavaChallangeApplicationTests : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-09T22:15:34.897-03:00  INFO 20984 --- [main] c.c.o.OrderJavaChallangeApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T22:15:35.545-03:00  INFO 20984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T22:15:35.615-03:00  INFO 20984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2024-12-09T22:15:36.216-03:00  INFO 20984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T22:15:36.291-03:00  INFO 20984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-09T22:15:36.331-03:00  INFO 20984 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T22:15:36.730-03:00  INFO 20984 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T22:15:36.763-03:00  INFO 20984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-09T22:15:36.851-03:00  INFO 20984 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4cfcac13
+2024-12-09T22:15:36.853-03:00  INFO 20984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-09T22:15:36.875-03:00  WARN 20984 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.16.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-12-09T22:15:36.892-03:00  WARN 20984 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-09T22:15:36.938-03:00  INFO 20984 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.16
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-09T22:15:37.548-03:00  INFO 20984 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T22:15:37.621-03:00  INFO 20984 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T22:15:37.997-03:00  INFO 20984 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T22:15:38.728-03:00  WARN 20984 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T22:15:39.303-03:00  INFO 20984 --- [main] c.c.o.OrderJavaChallangeApplicationTests : Started OrderJavaChallangeApplicationTests in 4.663 seconds (process running for 5.977)
+2024-12-09T22:15:40.494-03:00  INFO 20984 --- [main] c.c.o.order.service.OrderService         : Updating order with ID: 1
+2024-12-09T22:15:40.501-03:00  INFO 20984 --- [main] c.c.o.order.service.OrderService         : Creating order for Item ID: SKU123
+2024-12-09T22:15:40.502-03:00  INFO 20984 --- [main] c.c.o.order.service.OrderService         : Creating new Item with name: Item A
+2024-12-09T22:15:40.504-03:00  INFO 20984 --- [main] c.c.o.order.service.OrderService         : Creating new user with name: John Doe and email: john.doe@example.com
+2024-12-09T22:15:40.506-03:00  INFO 20984 --- [main] c.c.o.order.service.OrderService         : Finding order by id: 1
+2024-12-09T22:15:40.509-03:00  INFO 20984 --- [main] c.c.o.order.service.OrderService         : Deleting order by id: 1
+2024-12-09T22:15:40.539-03:00  INFO 20984 --- [main] c.c.o.s.service.StockMovementService     : Creating stock movement for item ID: 1
+2024-12-09T22:15:40.546-03:00  INFO 20984 --- [main] c.c.o.s.service.StockMovementService     : Creating stock movement for item ID: 1
+2024-12-09T22:15:40.548-03:00  INFO 20984 --- [main] c.c.o.s.service.StockMovementService     : Creating stock movement for item ID: 1
+2024-12-09T22:15:40.615-03:00  INFO 20984 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T22:15:40.621-03:00  INFO 20984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-09T22:15:40.627-03:00  INFO 20984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-09T22:35:21.654-03:00  INFO 12100 --- [main] c.c.o.OrderJavaChallangeApplication      : Starting OrderJavaChallangeApplication using Java 17.0.12 with PID 12100 (C:\Users\Minas\Desktop\Workespace_Personal\order-java-challange\target\classes started by Minas in C:\Users\Minas\Desktop\Workespace_Personal\order-java-challange)
+2024-12-09T22:35:21.655-03:00 DEBUG 12100 --- [main] c.c.o.OrderJavaChallangeApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-09T22:35:21.656-03:00  INFO 12100 --- [main] c.c.o.OrderJavaChallangeApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T22:35:22.023-03:00  INFO 12100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T22:35:22.066-03:00  INFO 12100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
+2024-12-09T22:35:22.332-03:00  INFO 12100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-09T22:35:22.339-03:00  INFO 12100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-09T22:35:22.339-03:00  INFO 12100 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-09T22:35:22.367-03:00  INFO 12100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-09T22:35:22.368-03:00  INFO 12100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 688 ms
+2024-12-09T22:35:22.450-03:00  INFO 12100 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T22:35:22.482-03:00  INFO 12100 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-09T22:35:22.503-03:00  INFO 12100 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T22:35:22.678-03:00  INFO 12100 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T22:35:22.694-03:00  INFO 12100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-09T22:35:22.743-03:00  INFO 12100 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f59da34
+2024-12-09T22:35:22.744-03:00  INFO 12100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-09T22:35:22.759-03:00  WARN 12100 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.16.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-12-09T22:35:22.763-03:00  WARN 12100 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-09T22:35:22.775-03:00  INFO 12100 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.16
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-09T22:35:23.312-03:00  INFO 12100 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T22:35:23.368-03:00  INFO 12100 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T22:35:23.544-03:00  INFO 12100 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T22:35:23.771-03:00  WARN 12100 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T22:35:23.970-03:00  INFO 12100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-09T22:35:23.975-03:00  INFO 12100 --- [main] c.c.o.OrderJavaChallangeApplication      : Started OrderJavaChallangeApplication in 2.597 seconds (process running for 2.97)
+2024-12-09T22:40:48.584-03:00  INFO 12100 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-09T22:40:48.584-03:00  INFO 12100 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-09T22:40:48.585-03:00  INFO 12100 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-09T22:41:18.966-03:00  INFO 12100 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-09T22:41:19.007-03:00  INFO 12100 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-09T22:41:19.010-03:00  INFO 12100 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T22:41:19.011-03:00  INFO 12100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-09T22:41:19.014-03:00  INFO 12100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-09T22:41:20.638-03:00  INFO 26784 --- [main] c.c.o.OrderJavaChallangeApplication      : Starting OrderJavaChallangeApplication using Java 17.0.12 with PID 26784 (C:\Users\Minas\Desktop\Workespace_Personal\order-java-challange\target\classes started by Minas in C:\Users\Minas\Desktop\Workespace_Personal\order-java-challange)
+2024-12-09T22:41:20.639-03:00 DEBUG 26784 --- [main] c.c.o.OrderJavaChallangeApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-09T22:41:20.639-03:00  INFO 26784 --- [main] c.c.o.OrderJavaChallangeApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T22:41:21.010-03:00  INFO 26784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T22:41:21.059-03:00  INFO 26784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+2024-12-09T22:41:21.316-03:00  INFO 26784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-09T22:41:21.324-03:00  INFO 26784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-09T22:41:21.324-03:00  INFO 26784 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-09T22:41:21.363-03:00  INFO 26784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-09T22:41:21.364-03:00  INFO 26784 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 696 ms
+2024-12-09T22:41:21.449-03:00  INFO 26784 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T22:41:21.481-03:00  INFO 26784 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-09T22:41:21.503-03:00  INFO 26784 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T22:41:21.665-03:00  INFO 26784 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T22:41:21.681-03:00  INFO 26784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-09T22:41:21.732-03:00  INFO 26784 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@77c23d90
+2024-12-09T22:41:21.733-03:00  INFO 26784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-09T22:41:21.749-03:00  WARN 26784 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.16.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-12-09T22:41:21.752-03:00  WARN 26784 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-09T22:41:21.763-03:00  INFO 26784 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.16
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-09T22:41:22.278-03:00  INFO 26784 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T22:41:22.329-03:00  INFO 26784 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T22:41:22.503-03:00  INFO 26784 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T22:41:22.726-03:00  WARN 26784 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T22:41:22.907-03:00  INFO 26784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-09T22:41:22.913-03:00  INFO 26784 --- [main] c.c.o.OrderJavaChallangeApplication      : Started OrderJavaChallangeApplication in 2.537 seconds (process running for 2.872)
+2024-12-09T22:41:36.070-03:00  INFO 26784 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-09T22:41:36.070-03:00  INFO 26784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-09T22:41:36.071-03:00  INFO 26784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-09T22:44:33.059-03:00  INFO 26784 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-09T22:44:33.100-03:00  INFO 26784 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-09T22:44:33.102-03:00  INFO 26784 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T22:44:33.103-03:00  INFO 26784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-09T22:44:33.105-03:00  INFO 26784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-09T22:44:43.961-03:00  INFO 27176 --- [main] c.c.o.OrderJavaChallangeApplication      : Starting OrderJavaChallangeApplication using Java 17.0.12 with PID 27176 (C:\Users\Minas\Desktop\Workespace_Personal\order-java-challange\target\classes started by Minas in C:\Users\Minas\Desktop\Workespace_Personal\order-java-challange)
+2024-12-09T22:44:43.962-03:00 DEBUG 27176 --- [main] c.c.o.OrderJavaChallangeApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-09T22:44:43.962-03:00  INFO 27176 --- [main] c.c.o.OrderJavaChallangeApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T22:44:44.311-03:00  INFO 27176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T22:44:44.362-03:00  INFO 27176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
+2024-12-09T22:44:44.628-03:00  INFO 27176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-09T22:44:44.634-03:00  INFO 27176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-09T22:44:44.635-03:00  INFO 27176 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-09T22:44:44.663-03:00  INFO 27176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-09T22:44:44.663-03:00  INFO 27176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 676 ms
+2024-12-09T22:44:44.743-03:00  INFO 27176 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T22:44:44.774-03:00  INFO 27176 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-09T22:44:44.792-03:00  INFO 27176 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T22:44:44.972-03:00  INFO 27176 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T22:44:44.989-03:00  INFO 27176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-09T22:44:45.053-03:00  INFO 27176 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67c21bf
+2024-12-09T22:44:45.054-03:00  INFO 27176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-09T22:44:45.073-03:00  WARN 27176 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.16.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-12-09T22:44:45.078-03:00  WARN 27176 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-09T22:44:45.092-03:00  INFO 27176 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.16
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-09T22:44:45.654-03:00  INFO 27176 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T22:44:45.713-03:00  INFO 27176 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T22:44:45.894-03:00  INFO 27176 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T22:44:46.130-03:00  WARN 27176 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T22:44:46.329-03:00  INFO 27176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-09T22:44:46.334-03:00  INFO 27176 --- [main] c.c.o.OrderJavaChallangeApplication      : Started OrderJavaChallangeApplication in 2.643 seconds (process running for 2.985)
+2024-12-09T22:44:49.712-03:00  INFO 27176 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-09T22:44:49.712-03:00  INFO 27176 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-09T22:44:49.713-03:00  INFO 27176 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-09T22:44:55.583-03:00  INFO 27176 --- [http-nio-8080-exec-2] c.c.o.s.service.StockMovementService     : Creating stock movement for item ID: 1
+2024-12-09T23:18:09.604-03:00  INFO 27176 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-09T23:18:09.649-03:00  INFO 27176 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-09T23:18:09.652-03:00  INFO 27176 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T23:18:09.653-03:00  INFO 27176 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-09T23:18:09.655-03:00  INFO 27176 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
